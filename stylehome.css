@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+   /* background: #6AB0E3;*/
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #6AB0E3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99; 
+}
+
+.MyWeb{
+    font-size: 2rem;
+    color: #fff;
+    user-select: none;
+}
+
+.navigation a{
+    position: relative;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.home{
+    width: 100%;
+    min-height: 440px;
+    background: #6AB0E3;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-text{
+    text-align: center;
+}
+
+.home-title{
+    font-size: 3.5rem;
+    color: #FFF59D;
+}
+
+.home-subtitle{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFF59D;
+}
+
+.content-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-title h3{
+    margin: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
+
+.content-item img{
+    width: 87%; 
+    margin: 0 2rem; 
+    border-radius: 5%;
+    margin-right: 2rem; 
+}
+
+.content-twotitle h4{
+    margin: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: medium;
+}
+
+.content-twotitle .content-btn{
+    background-color: #6AB0E3;
+    color: #ffff;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.7rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 2rem;
+}
+
+.content-con2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 0rem;
+}
+
+.content-title2 h5{
+    margin: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
+.content-item2 img{
+    width: 83%; 
+    margin: 0 2rem; 
+    margin-right: 2rem;
+}
+
+.content-item2 h6{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.content-item2 p{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content-item2 .content-btn2{
+    display: inline-block;
+    display: table;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    background-color: #000;
+    color: #ffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 0.7rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.content-item2 .content-btn3{
+    display: table;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    color: #FF0000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.content-title3{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.content3{
+    background-color: #FFF59D;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.content-con3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.content-item3 img{
+    width: 77%; 
+    margin: 0 2rem;
+    margin-top: 2rem;
+    margin-right: 2rem; 
+    border-radius: 5%; 
+}
+
+.content-item3 .content-btn4{
+    display: table;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: #000;
+    text-decoration: none;
+}
+
+.content-item3 .content-btn4{
+    position: relative;
+    font-size: 1rem;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+.content-item3 .content-btn4::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #000;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.content-item3 .content-btn4:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.content4{
+    background-color: #000;
+    width: 100%;
+}
+
+.content5{
+    background-color: #6AB0E3;
+    width: 100%;
+}
+
+.content-item5{
+    text-align: center;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: x-small;
+    
+}
+
+
+

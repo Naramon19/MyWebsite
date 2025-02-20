@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Dashboard</title>
+    <link rel="stylesheet" href="stylelife.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js" integrity="sha512-L0Shl7nXXzIlBSUUPpxrokqq4ojqgZFQczTYlGjzONGTDAcLremjwaWv5A+EDLnxhQzY5xUZPWLOLqYRkY0Cbw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <section class="post-header">
+        <div class="header-content post-container">
+            <h1><br><br></h1>
+            <h2 class="header-title">Life Dashboard</h2>
+            <img src="images/E.jpg" alt="" class="header-img">
+        </div>
+    </section>
+
+    <section class="post-content post-container">
+        <div class="box">
+            <h3 class="sub-heading">WEEK 1<br>(18 NOV - 24 NOV 2024)</h3>
+    <div class="chart">
+        <canvas id="myChart"></canvas>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      
+      <script>
+        const ctx = document.getElementById('myChart');
+      
+        new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: ['Work', 'Play', 'Love', 'Health'],
+            datasets: [{
+              label: 'score : 100',
+              data: [70,80,50,85],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      </script>
+            <p class="post-text">Work -- เปิดเทอมสัปดาห์แรกชิล ๆ ไม่ค่อยมีงาน</p>
+            <p class="post-text">Play -- ดูซีรี่ส์ฉ่ำ ชีวิตแฮปปี้สุด ๆ</p>
+            <p class="post-text">Love -- เศร้านิดหน่อย ไม่อยากกลับมามอเลย อยากอยู่บ้าน</p>
+            <p class="post-text">Health -- ไม่เจ็บ ไม่ป่วย แต่นอนดึกเพราะดูซีรี่ส์</p>
+           
+        </div>
+    </section>
+
+    <section class="post-content2 post-container">
+        <div class="box">
+            <h3 class="sub-heading">WEEK 2<br>(25 NOV - 1 DEC 2024)</h3>
+    <div class="chart">
+        <canvas id="myChart2"></canvas>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      
+      <script>
+        const ctx2 = document.getElementById('myChart2');
+      
+        new Chart(ctx2, {
+          type: 'bar',
+          data: {
+            labels: ['Work', 'Play', 'Love', 'Health'],
+            datasets: [{
+              label: 'score : 100',
+              data: [65,60,65,70],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      </script>
+            <p class="post-text">Work -- เริ่มมีการบ้าน แต่ยังจัดการเวลาได้อยู่</p>
+            <p class="post-text">Play -- ยังคงดูซีรี่ส์อยู่แต่น้อยลงจากเดิม และไถติ๊กต๊อกเป็นส่วนใหญ่</p>
+            <p class="post-text">Love -- เหมือน ๆ เดิม เรื่อย ๆ ไม่ได้แย่</p>
+            <p class="post-text">Health -- นอนดึก แต่ยังตื่นไปเรียนได้</p>
+           
+        </div>
+    </section>
+
+    <section class="post-content3 post-container">
+        <div class="box">
+            <h3 class="sub-heading">WEEK 3<br>(2 DEC - 8 DEC 2024)</h3>
+    <div class="chart">
+        <canvas id="myChart3"></canvas>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      
+      <script>
+        const ctx3 = document.getElementById('myChart3');
+      
+        new Chart(ctx3, {
+          type: 'bar',
+          data: {
+            labels: ['Work', 'Play', 'Love', 'Health'],
+            datasets: [{
+              label: 'score : 100',
+              data: [55,45,60,50],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      </script>
+            <p class="post-text">Work -- เริ่มเครียดกับการเรียนและการบ้านวิชา circuit</p>
+            <p class="post-text">Play -- มีเวลาใช้ชีวิตน้อยลงเพราะต้องทำงานพาร์ทไทม์ด้วย</p>
+            <p class="post-text">Love -- เฉย ๆ แต่คิดถึงลูกสาวกับลูกชาย(แมว)ที่บ้าน</p>
+            <p class="post-text">Health -- นอนดึกแทบทุกวันและต้องตื่นไปเรียนเช้า แต่ยังไหวอยู่</p>
+           
+        </div>
+    </section>
+
+    <section class="post-content4 post-container">
+        <div class="box">
+            <h3 class="sub-heading">WEEK 4<br>(9 DEC - 15 DEC 2024)</h3>
+    <div class="chart">
+        <canvas id="myChart4"></canvas>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      
+      <script>
+        const ctx4 = document.getElementById('myChart4');
+      
+        new Chart(ctx4, {
+          type: 'bar',
+          data: {
+            labels: ['Work', 'Play', 'Love', 'Health'],
+            datasets: [{
+              label: 'score : 100',
+              data: [50,35,50,45],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      </script>
+            <p class="post-text">Work -- มีการบ้านอื่นเพิ่มขึ้น แต่ก็ยังคงมี circuit เหมือนเดิม</p>
+            <p class="post-text">Play -- ทำงานพาร์ทไทม์บ่อยเกินจนไม่ค่อยมีเวลาดูซีรี่ส์เลย เศร้า</p>
+            <p class="post-text">Love -- อยากกลับบ้าน</p>
+            <p class="post-text">Health -- ขอบตาเริ่มดำ เริ่มเครียดและ</p>
+           
+        </div>
+    </section>
+
+    <section class="post-content5 post-container">
+        <div class="box">
+            <h3 class="sub-heading">WEEK 5<br>(16 DEC - 22 DEC 2024)</h3>
+    <div class="chart">
+        <canvas id="myChart5"></canvas>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      
+      <script>
+        const ctx5 = document.getElementById('myChart5');
+      
+        new Chart(ctx5, {
+          type: 'bar',
+          data: {
+            labels: ['Work', 'Play', 'Love', 'Health'],
+            datasets: [{
+              label: 'score : 100',
+              data: [35,40,70,60],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      </script>
+            <p class="post-text">Work -- งาน + สอบ = ตุย</p>
+            <p class="post-text">Play -- เมื่อมีวิชาที่ต้องสอบ ก็ไม่ค่อยมีเวลาใช้ชีวิตเลย แล้วต้องทำงานด้วย</p>
+            <p class="post-text">Love -- ใช้ชีวิตคนเดียวโสด ๆ เหมือนเดิม แต่แฮปปี้เพราะเป็นอาทิตย์วันเกิดที่มีแค่ครอบครัวกับเพื่อนก็พอแล้ว</p>
+            <p class="post-text">Health -- ร่างกายเหนื่อยล้าเพราะนอนดึก แต่จิตใจแฮปปี้ก็ถือว่าดี (มั้ง)</p>
+           
+        </div>
+    </section>
+
+    <section class="post-content6 post-container">
+        <div class="box">
+            <h3 class="sub-heading">WEEK 6<br>(23 DEC - 29 DEC 2024)</h3>
+    <div class="chart">
+        <canvas id="myChart6"></canvas>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      
+      <script>
+        const ctx6 = document.getElementById('myChart6');
+      
+        new Chart(ctx6, {
+          type: 'bar',
+          data: {
+            labels: ['Work', 'Play', 'Love', 'Health'],
+            datasets: [{
+              label: 'score : 100',
+              data: [60,65,100,90],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      </script>
+            <p class="post-text">Work -- อาทิตย์ก่อนหยุดปีใหม่อาจารย์ไม่ค่อยสั่งงานเท่าไหร่ เคลียร์แค่งานเก่าให้เสร็จ</p>
+            <p class="post-text">Play -- ยังคงทำงานพาร์ทไทม์เหมือนเคย แต่ก็มีวันที่ได้ใช้ชีวิตแบบสุดติ่งมาก</p>
+            <p class="post-text">Love -- ได้ไปดูคอนเสิร์ตของดาราจีนที่ชอบ ใช้ชีวิตคนเดียวท่ามกลางเมืองที่วุ่นวายได้ดีเยี่ยม และยังได้กลับบ้านด้วย</p>
+            <p class="post-text">Health -- แฮปปี้สุด ๆ แต่แอบเหนื่อยกับการนั่งรถกลับบ้านนิดหน่อย</p>
+           
+        </div>
+    </section>
+
+    <section class="post-content7 post-container">
+        <div class="box">
+            <h3 class="sub-heading">WEEK 7<br>(30 DEC - 5 JAN 2025)</h3>
+    <div class="chart">
+        <canvas id="myChart7"></canvas>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      
+      <script>
+        const ctx7 = document.getElementById('myChart7');
+      
+        new Chart(ctx7, {
+          type: 'bar',
+          data: {
+            labels: ['Work', 'Play', 'Love', 'Health'],
+            datasets: [{
+              label: 'score : 100',
+              data: [75,80,100,90],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      </script>
+            <p class="post-text">Work -- หยุดปีใหม่ที่ไม่ต้องทำอะไรเลย เพราะมีงานแต่ยังไม่ทำ</p>
+            <p class="post-text">Play -- ใช้ชีวิตเรื่อยเปื่อยมาก ตื่นมากินข้าวแล้วนอนต่อแล้วค่อยดูซีรี่ส์วนไป</p>
+            <p class="post-text">Love -- ได้อยู่กับครอบครัว และได้กอดยึดลูกสาวกับลูกชายทั้งวัน</p>
+            <p class="post-text">Health -- กินอิ่มนอนหลับ แต่มีคิดเรื่องงานที่ต้องกลับไปทำส่งอาจารย์นิดหน่อย</p>
+           
+        </div>
+    </section>
+
+    <section class="post-content8 post-container">
+        <div class="box">
+            <h3 class="sub-heading">WEEK 8<br>(6 JAN - 12 JAN 2025)</h3>
+    <div class="chart">
+        <canvas id="myChart8"></canvas>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      
+      <script>
+        const ctx8 = document.getElementById('myChart8');
+      
+        new Chart(ctx8, {
+          type: 'bar',
+          data: {
+            labels: ['Work', 'Play', 'Love', 'Health'],
+            datasets: [{
+              label: 'score : 100',
+              data: [25,25,35,20],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      </script>
+            <p class="post-text">Work -- กลับมามอหลังปีใหม่คือต้องเตรียมตัวสอบกลางภาคอย่างหนัก</p>
+            <p class="post-text">Play -- เวลาใช้ชีวิตไม่มี แค่เตรียมตัวสอบก็จะตายแล้ว แต่ยังต้องไปทำงานพาร์ทไทม์อีก (จะบ้า)</p>
+            <p class="post-text">Love -- นอย อยากอยู่บ้านตลอดไป</p>
+            <p class="post-text">Health -- ย่ำแย่ นอนดึกตื่นเช้า เหนื่อยจากการทำงาน หน้าโทรม เครียดสุด ๆ</p>
+           
+        </div>
+    </section>
+
+    <section class="post-content9 post-container">
+        <div class="box">
+            <h3 class="sub-heading">WEEK 9<br>(13 JAN - 19 JAN 2025)</h3>
+    <div class="chart">
+        <canvas id="myChart9"></canvas>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      
+      <script>
+        const ctx9 = document.getElementById('myChart9');
+      
+        new Chart(ctx9, {
+          type: 'bar',
+          data: {
+            labels: ['Work', 'Play', 'Love', 'Health'],
+            datasets: [{
+              label: 'score : 100',
+              data: [20,20,35,20],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      </script>
+            <p class="post-text">Work -- สอบแล้วก็สอบ</p>
+            <p class="post-text">Play -- แค่อ่านหนังสือยังไม่มีเวลาเลย</p>
+            <p class="post-text">Love -- ดิ่งดาว เดียวดาย นอย</p>
+            <p class="post-text">Health -- ถ้าติดลบได้คงติดลบไปแล้ว เครียดตรงที่หน้าโทรมมาก</p>
+           
+        </div>
+    </section>
+
+    <section class="post-content10 post-container">
+        <div class="box">
+            <h3 class="sub-heading">WEEK 10<br>(20 JAN - 26 JAN 2025)</h3>
+    <div class="chart">
+        <canvas id="myChart10"></canvas>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      
+      <script>
+        const ctx10 = document.getElementById('myChart10');
+      
+        new Chart(ctx10, {
+          type: 'bar',
+          data: {
+            labels: ['Work', 'Play', 'Love', 'Health'],
+            datasets: [{
+              label: 'score : 100',
+              data: [65,50,70,40],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      </script>
+            <p class="post-text">Work -- อาจารย์ยังคงทยอยสั่งงานอยู่เรื่อย ๆ แต่ถู ๆ ไถ ๆ ได้อยู่</p>
+            <p class="post-text">Play -- เริ่มได้ดูซีรี่ส์และ แต่ก็ไม่ค่อยมีเวลาเท่าไหร่ เพราะเจ้าของร้านที่ทำงานของแทร่</p>
+            <p class="post-text">Love -- เริ่มเจอเป้าหมาย เจอรุ่นพี่คนหนึ่งที่เป็นทอมแต่โครตน่ารักดีต่อใจมาก </p>
+            <p class="post-text">Health -- ไม่เจ็บ ไม่ป่วย แต่แทบไม่ค่อยได้นอนเร็วเลย แถมหลัง ๆ เริ่มตื่นไปเรียนไม่ไหวจร้า</p>
+           
+        </div>
+    </section>
+
+    <section class="post-content11 post-container">
+        <div class="box">
+            <h3 class="sub-heading">WEEK 11<br>(27 JAN - 2 FEB 2025)</h3>
+    <div class="chart">
+        <canvas id="myChart11"></canvas>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      
+      <script>
+        const ctx11 = document.getElementById('myChart11');
+      
+        new Chart(ctx11, {
+          type: 'bar',
+          data: {
+            labels: ['Work', 'Play', 'Love', 'Health'],
+            datasets: [{
+              label: 'score : 100',
+              data: [65,65,50,70],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      </script>
+            <p class="post-text">Work -- เรื่อย ๆ ค่อย ๆ เคลียร์ทีละอย่างตามอารมณ์</p>
+            <p class="post-text">Play -- มีเวลามากขึ้นเพราะออกจากการทำงานพาร์ทไทม์ ได้ไปร้องคาราโอเกะผ่อนคลายสุด ๆ</p>
+            <p class="post-text">Love -- พี่คนนั้นก็เหมือนจะดีต่อใจ แต่ลึก ๆ ก็ยังคงเอียงไปทางผู้ชายมากกว่าอยู่ดี (แค่ยังไม่เจอคนของใจ)</p>
+            <p class="post-text">Health -- หน้าเริ่มไม่โทรมแล้ว ไม่ค่อยเครียด แต่นอนดึกเหมือนเดิมเพราะดูซีรี่ส์ฉ่ำ</p>
+           
+        </div>
+    </section>
+
+    <section class="post-content12 post-container">
+        <div class="box">
+            <h3 class="sub-heading">WEEK 12<br>(3 FEB - 9 FEB 2025)</h3>
+    <div class="chart">
+        <canvas id="myChart12"></canvas>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      
+      <script>
+        const ctx12 = document.getElementById('myChart12');
+      
+        new Chart(ctx12, {
+          type: 'bar',
+          data: {
+            labels: ['Work', 'Play', 'Love', 'Health'],
+            datasets: [{
+              label: 'score : 100',
+              data: [65,70,85,70],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      </script>
+            <p class="post-text">Work -- งานไม่ค่อยเยอะ สบาย ๆ แต่พอนึกถึงตอนสอบปลายภาคก็คงสนุกแน่</p>
+            <p class="post-text">Play -- ใช้ชีวิตเรื่อยเปื่อยมาก ดูซีรี่ส์ กิน นอน</p>
+            <p class="post-text">Love -- มีคนเข้ามาทำให้ใจหวั่นไหวตั้งแต่เมื่อไหร่ไม่รู้ รู้ตัวอีกทีก็ยิ้มให้กับแชทของเขาไปแล้ว</p>
+            <p class="post-text">Health -- สุขภาพจิตดี สุขภาพกายก็ดีตาม</p>
+           
+        </div>
+    </section>
+
+    <section class="post-content13 post-container">
+        <div class="box">
+            <h3 class="sub-heading">WEEK 13<br>(10 FEB - 16 FEB 2025)</h3>
+    <div class="chart">
+        <canvas id="myChart13"></canvas>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      
+      <script>
+        const ctx13 = document.getElementById('myChart13');
+      
+        new Chart(ctx13, {
+          type: 'bar',
+          data: {
+            labels: ['Work', 'Play', 'Love', 'Health'],
+            datasets: [{
+              label: 'score : 100',
+              data: [65,70,60,50],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      </script>
+            <p class="post-text">Work -- งานยังคงจัดการได้เรื่อย ๆ</p>
+            <p class="post-text">Play -- ดูซีรี่ส์แบบสับมาก โลกนี้คือไม่อยากทำอะไรแล้ว</p>
+            <p class="post-text">Love -- ได้คุยเล่นกับคน ๆ นั้นมากขึ้น ทำให้ยิ่งชอบแต่ยิ่งชอบมากเท่าไหร่ก็ยิ่งกลัว เพราะเขาคือ...เพื่อนในห้อง</p>
+            <p class="post-text">Health -- ร่างกายปกติ แต่จิตใจแอบนอย อิจฉาคนมีแฟนในวันวาเลนไทน์</p>
+           
+        </div>
+    </section>
+
+    <section class="post-content14 post-container">
+        <div class="box">
+            <h3 class="sub-heading">WEEK 14<br>(17 FEB - 23 FEB 2025)</h3>
+    <div class="chart">
+        <canvas id="myChart14"></canvas>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      
+      <script>
+        const ctx14 = document.getElementById('myChart14');
+      
+        new Chart(ctx14, {
+          type: 'bar',
+          data: {
+            labels: ['Work', 'Play', 'Love', 'Health'],
+            datasets: [{
+              label: 'score : 100',
+              data: [65,70,50,55],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      </script>
+            <p class="post-text">Work -- ไม่ต่างจากปกติที่เป็นอยู่</p>
+            <p class="post-text">Play -- ทำอะไรเดิม ๆ วนไป ดูซีรี่ส์ ไถติ๊กต๊อก</p>
+            <p class="post-text">Love -- รักแค่ตัวเองก็พอ ขอไม่เสี่ยงเอาใจลงไปเล่น</p>
+            <p class="post-text">Health -- นอนดึก ตื่นสาย แต่อาทิตย์นี้พยายามตื่นไปเรียนทันอยู่บ้าง</p>
+           
+        </div>
+    </section>
+
+    <section class="content5">
+        <div class="cointain5">
+            <div class="content-con5">
+                <div class="content-item5">
+                    <h1><br>@prim_nrm<br><br></h1>
+                    <div class="iconic">
+                        <a href="work.html"><ion-icon name="arrow-back-circle-outline"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+       
+
+       
+    
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

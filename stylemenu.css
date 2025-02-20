@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background: #6AB0E3;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #6AB0E3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    
+}
+
+.MyWeb{
+    font-size: 2rem;
+    color: #fff;
+    user-select: none;
+}
+
+.navigation a{
+    position: relative;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.container{
+    position: absolute;
+    top: -25%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 85%;
+    height: 75%;
+    background: url('images/2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.container .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45%;
+    height: 100.1%;
+    /*background: yellowgreen;*/
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    /*margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;*/
+}
+
+.content h2{
+    font-size: 3rem;
+    line-height: 1; 
+    color: #fff; 
+}
+
+.content p{
+    font-size: 1rem;
+    margin: 20px, 0;
+    color: #fff;
+}
+
+.social-icons a{
+    font-size: 3rem;
+    color: #FF0000;
+    margin-right: 10px;
+    transition: .5s ease;
+}
+
+.social-icons a:hovor{
+    transform: scale(2);
+}
+
+.container .logreg-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(100% - 58%);
+    height: 100%;
+    /*background: red;*/
+}
+
+@media (max-width: 1024px) and (min-width: 600px) {
+    .content h2 {
+        font-size: 1.8rem;
+        line-height: 1;
+        color: #fff;
+    }
+
+    .content p {
+        font-size: 0.73rem;
+        color: #fff;
+    }
+}
+
+@media (max-width: 600px){
+    .content h2 {
+        font-size: 1.5rem;
+        line-height: 1;
+        color: #fff;
+    }
+
+    .content p {
+        font-size: 0.5rem;
+        color: #fff;
+    }
+
+    .social-icons a {
+        font-size: 1.5rem;
+        color: #FF0000;
+        margin-right: 10px;
+        transition: .5sease;
+    }
+}
+
+@media (max-width: 425px){
+    .content h2 {
+        font-size: 1.5rem;
+        line-height: 1;
+        color: #fff;
+    }
+
+    .content p {
+        font-size: 0.55rem;
+        color: #fff;
+    }
+
+    .social-icons a {
+        font-size: 1.5rem;
+        color: #FF0000;
+        margin-right: 10px;
+        transition: .5sease;
+    }
+}
+
+@media (max-width: 320px) {
+    header {
+        position: fixed;
+        top: 0px;
+        left: -55px;
+        width: 100%;
+        padding: 20px 100px;
+        background: rgb(106, 176, 227);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 99;
+    }
+}
