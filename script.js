@@ -44,7 +44,7 @@ loginForm.addEventListener('submit', (e) => {
   if (email === registeredUsers.email && password === registeredUsers.password) {
     alert(`Welcome, ${registeredUsers.username}! Redirecting to the dashboard...`);
     
-    window.location.href = "menu.html"; 
+    window.location.href = "home.html"; 
   } else {
     alert('Invalid email or password. Please try again.');
   }
